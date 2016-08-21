@@ -1,0 +1,60 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.board {
+  position: relative;
+  text-align: center;
+  margin:auto;
+}
+/* STYLE TABLICY */
+
+.column-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.create-column {
+  cursor: pointer;
+  margin: 5px 8px;
+  display: block;
+}
+
+/* STYLE KOLUMNY */
+.column {
+  order: 1;
+  width: 20%;
+  min-height: 20vh;
+  background-color: lightgrey;
+  margin-left: 8px;
+  list-style: none;
+  position: relative;
+}
+.column-title {
+  margin: 8px 5px;
+}
+.column-card-list {
+  list-style: none;
+  margin: 5px;
+  padding: 0px;
+}
+
+/* STYLE KARTY */
+.card {
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 5px;
+  padding: 4px;
+  background-color: yellow;
+  overflow: hidden;
+  position: relative;
+}
+.card-description {
+  margin: 2px;
+}
+
+.card-placeholder {
+  background: red;
+}
+
