@@ -57,4 +57,7 @@ body, html {
 .card-placeholder {
   background: red;
 }
+.ui-sortable {
+  min-height: 80px;
+}
 
